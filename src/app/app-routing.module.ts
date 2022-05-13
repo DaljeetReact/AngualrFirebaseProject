@@ -5,9 +5,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 const routes: Routes = [
   {path:'', component:HomePageComponent},
   {
-    path:'login',
-    loadChildren:()=>import('./user/user.module').then((m)=>m.UserModule) // this will only load the user module when it will hit the login page
-  }
+    path:'login', loadChildren:()=>import('./user/user.module').then((m)=>m.UserModule) // this will only load the user module when it will hit the login page
+  } 
 ];
 
 @NgModule({

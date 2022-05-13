@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angularfireship-a4249": {
+      "hosting": {
+        "AngularFireshipIo": [
+          "angularfireship-a4249"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angularfireship-a4249"
+  }
+}
